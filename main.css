@@ -1,0 +1,89 @@
+body {
+    font-family: Roboto, sans-serif;
+    color: #444444;
+}
+
+.navbar {
+    background: linear-gradient(to right, #00c3d1, #ffd768);
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff8e3;
+    color:#00c3d1
+}
+
+#cabecalho .navbar-brand {
+    color: #ffd768;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-pacotes .nav-link.active:hover {
+    color: #444444;
+}
+
+.navbar-toggler {
+    background-color: #00c3d1;
+    color: #fff8e3;
+}
+
+.carousel-item {
+    position: relative;
+    max-height: 800px;
+    overflow: hidden;
+}
+
+.carousel-item img {
+    max-height: 800px;
+    object-fit: cover;
+}
+
+.section-title {
+    font-family: "Fascinate", system-ui;
+}
+
+#sobre-a-trip, #pacotes {
+    background-color: #fff8e3;
+}
+
+#destinos, #fale-conosco {
+    background: linear-gradient(to right, #c2fbff, #ffde82);
+}
+
+.text-colored {
+    color:#00c3d1;
+}
+
+.text-cardapio {
+    color: #444444;
+}
+
+.nav-pacotes .nav-link.active,
+#fale-conosco button {
+    background-color: #00c3d1;
+    color: #fff8e3;
+}
+
+.nav-pacotes .nav-link:hover {
+    color: #00c3d1;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+#footer {
+    background: linear-gradient(to right, #00c3d1, #ffd768);
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}

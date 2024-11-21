@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRIP</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fascinate&family=Roboto:wght@400;700&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title fs-1">TRIP</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item section-title fw-bold">
+                        <a href="#sobre-a-trip" class="nav-link">
+                            <i class="bi bi-backpack me-1"></i>
+                            Sobre a TRIP
+                        </a>
+                    </li>
+                    <li class="nav-item section-title fw-bold">
+                        <a href="#destinos" class="nav-link">
+                            <i class="bi bi-airplane me-1"></i>
+                            Destinos
+                        </a>
+                    </li>
+                    <li class="nav-item section-title fw-bold">
+                        <a href="#pacotes" class="nav-link">
+                            <i class="bi bi-bag-check me-1"></i>
+                            Pacotes
+                        </a>
+                    </li>
+                    <li class="nav-item section-title fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-a-trip">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img class="d-block w-100 img-limit-height" src="images/slides/slide1.jpg" alt="Foto do espaço interno do restaurante">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="d-block w-100 img-limit-height" src="images/slides/slide2.jpg" alt="Duas taças de vinho">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="d-block w-100 img-limit-height" src="images/slides/slide3.jpg" alt="Uma mesa com comida">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="https://img.freepik.com/premium-photo/joyful-road-trip-through-lush-mountains_332713-6651.jpg" class="d-block w-100 rounded" alt="Foto do espaço interno do restaurante">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Sobre a <span class="text-colored">TRIP</span></h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta suscipit amet nam et facilis accusantium voluptate, quisquam assumenda ullam temporibus esse distinctio, nesciunt corporis facere recusandae fugiat consequatur placeat dolorem.</p>
+                            <h3 class="section-title">Nosso <span class="text-colored">destino</span></h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur sequi illo id at, nemo quidem, vitae sapiente deserunt laboriosam saepe dignissimos corrupti magni necessitatibus veritatis dolores, natus suscipit repellendus provident.</p>
+                            <ul>
+                                <li>Item 1</li>
+                                <li>Item 2</li>
+                                <li>Item 3</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="destinos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Para os melhores <span class="text-colored">destinos</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-3">
+                        <img src="images/destinos/usa.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-bookmark-check-fill"></i>
+                            USA
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas nam excepturi quibusdam laudantium quisquam ut in rem? Laudantium ipsum corrupti minus laborum tempore deleniti neque, obcaecati cum incidunt sequi! Maiores!</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="images/destinos/london.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-bookmark-check-fill"></i>
+                            inglaterra
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas nam excepturi quibusdam laudantium quisquam ut in rem? Laudantium ipsum corrupti minus laborum tempore deleniti neque, obcaecati cum incidunt sequi! Maiores!</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="images/destinos/switzerland.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-bookmark-check-fill"></i>
+                            Suíça
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas nam excepturi quibusdam laudantium quisquam ut in rem? Laudantium ipsum corrupti minus laborum tempore deleniti neque, obcaecati cum incidunt sequi! Maiores!</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="images/destinos/japan.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-bookmark-check-fill"></i>
+                            Japão
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas nam excepturi quibusdam laudantium quisquam ut in rem? Laudantium ipsum corrupti minus laborum tempore deleniti neque, obcaecati cum incidunt sequi! Maiores!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="pacotes" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">Nossos <span class="text-colored">pacotes</span></h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-pacotes">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#usa" class="fw-bold text-start nav-link text-cardapio active">USA</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#inglaterra" class="fw-bold text-start nav-link text-cardapio">Inglaterra</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#suica" class="fw-bold text-start nav-link text-cardapio">Suíça</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#japao" class="fw-bold text-start nav-link text-cardapio">Japão</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="usa">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="images/pacotes/usa/miami.jpg" alt="Coca-cola"/>
+                                        <h5 class="text-colored fw-bold mt-2">Miami</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="images/pacotes/usa/ny.jpg" alt="Suco"/>
+                                        <h5 class="text-colored fw-bold mt-2">Nova York</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="images/pacotes/usa/orlando.webp" alt="Coca-cola"/>
+                                        <h5 class="text-colored fw-bold mt-2">Orlando</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="images/pacotes/usa/lasvegas.jpg" alt="Coca-cola"/>
+                                        <h5 class="text-colored fw-bold mt-2">Las Vegas</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="images/pacotes/usa/miami.jpg" alt="Coca-cola"/>
+                                        <h5 class="text-colored fw-bold mt-2">Miami</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="images/pacotes/usa/ny.jpg" alt="Suco"/>
+                                        <h5 class="text-colored fw-bold mt-2">Nova York</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="images/pacotes/usa/orlando.webp" alt="Coca-cola"/>
+                                        <h5 class="text-colored fw-bold mt-2">Orlando</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="images/pacotes/usa/lasvegas.jpg" alt="Coca-cola"/>
+                                        <h5 class="text-colored fw-bold mt-2">Las Vegas</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="inglaterra">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="images/pacotes/inglaterra/londres.webp" alt="Cerveja"/>
+                                        <h5 class="text-colored fw-bold mt-2">Londres</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="images/pacotes/inglaterra/cambridge.JPG" alt="Vinho"/>
+                                        <h5 class="text-colored fw-bold mt-2">Cambridge</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="images/pacotes/inglaterra/greenwich.JPG" alt="Cerveja"/>
+                                        <h5 class="text-colored fw-bold mt-2">Greenwich</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="images/pacotes/inglaterra/dover.JPG" alt="Vinho"/>
+                                        <h5 class="text-colored fw-bold mt-2">Dover</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="images/pacotes/inglaterra/londres.webp" alt="Cerveja"/>
+                                        <h5 class="text-colored fw-bold mt-2">Londres</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="images/pacotes/inglaterra/cambridge.JPG" alt="Vinho"/>
+                                        <h5 class="text-colored fw-bold mt-2">Cambridge</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="images/pacotes/inglaterra/greenwich.JPG" alt="Cerveja"/>
+                                        <h5 class="text-colored fw-bold mt-2">Greenwich</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="images/pacotes/inglaterra/dover.JPG" alt="Vinho"/>
+                                        <h5 class="text-colored fw-bold mt-2">Dover</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="suica">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="images/pacotes/suica/zurique.webp" alt="Nome da entrada"/>
+                                        <h5 class="text-colored fw-bold mt-2">Zurique</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="images/pacotes/suica/genebra.jpg" alt="Nome da entrada"/>
+                                        <h5 class="text-colored fw-bold mt-2">Genebra</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="images/pacotes/suica/zermatt.webp" alt="Nome da entrada"/>
+                                        <h5 class="text-colored fw-bold mt-2">Zermatt</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="images/pacotes/suica/basileia.jpg" alt="Nome da entrada"/>
+                                        <h5 class="text-colored fw-bold mt-2">Basileia</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="images/pacotes/suica/zurique.webp" alt="Nome da entrada"/>
+                                        <h5 class="text-colored fw-bold mt-2">Zurique</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="images/pacotes/suica/genebra.jpg" alt="Nome da entrada"/>
+                                        <h5 class="text-colored fw-bold mt-2">Genebra</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="images/pacotes/suica/zermatt.webp" alt="Nome da entrada"/>
+                                        <h5 class="text-colored fw-bold mt-2">Zermatt</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="images/pacotes/suica/basileia.jpg" alt="Nome da entrada"/>
+                                        <h5 class="text-colored fw-bold mt-2">Basileia</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="japao">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="images/pacotes/japao/toquio.webp" alt="Pizza"/>
+                                        <h5 class="text-colored fw-bold mt-2">Tóquio</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="images/pacotes/japao/quioto.jpg" alt="Salmão"/>
+                                        <h5 class="text-colored fw-bold mt-2">Quioto</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="images/pacotes/japao/osaka.jpg" alt="Pizza"/>
+                                        <h5 class="text-colored fw-bold mt-2">Osaka</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="images/pacotes/japao/hiroshima.jpg" alt="Salmão"/>
+                                        <h5 class="text-colored fw-bold mt-2">Hiroshima</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="images/pacotes/japao/toquio.webp" alt="Pizza"/>
+                                        <h5 class="text-colored fw-bold mt-2">Tóquio</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="images/pacotes/japao/quioto.jpg" alt="Salmão"/>
+                                        <h5 class="text-colored fw-bold mt-2">Quioto</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="images/pacotes/japao/osaka.jpg" alt="Pizza"/>
+                                        <h5 class="text-colored fw-bold mt-2">Osaka</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="images/pacotes/japao/hiroshima.jpg" alt="Salmão"/>
+                                        <h5 class="text-colored fw-bold mt-2">Hiroshima</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Fale <span class="text-colored">conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (opcional)</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                                <textarea class="form-control" id="mensagem" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-discord text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>
+                                Rua Balgust, Cathedral Square - Storm Wind - Eastern Kingdoms
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer class="text-center p-3 pt-4 pb-1" id="footer">
+        <p class="fs-6 fw-bold">
+            2024 &copy; Gabriel D'Almeida - Todos os direitos reservados.
+        </p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
